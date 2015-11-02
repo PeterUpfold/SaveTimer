@@ -38,4 +38,4 @@ The 1st argument, the ‘watch directory’, is the folder which will be observe
 
 The ‘initial grace period’ (3rd argument) is a period of time after the application starts during which the user is permitted to have not saved their work without the message appearing.
 
-There are no persistent settings, or special install requirements — the application can run directly from the network, as long as the client machine has .NET 4.5.2.
+There are no persistent settings, or special install requirements — the application can run directly from the network, as long as the client machine has .NET 4.5.2. The application does log extensively to `%AppData%\SaveTimer\SaveTimer.log`, and automatically cleans logs older than 1 month that are greater than 100 KB in size. This is not currently configurable at runtime.
