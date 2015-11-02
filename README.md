@@ -25,6 +25,7 @@ We assume:
 
  * there is a locked down environment only offering an ‘obvious’ place the user needs to save their work
  * the watch directory starts out empty and would be processed, backed up and cleared before the user interacted with Save Timer again (no continued access to documents)
+ * the user has permissions to all subdirectories and files in the watch directory, if it is not empty
  * the application is intended to be launched at logon by a Group Policy object, Startup shortcut or similar, rather than interactively by the user
  * the application is not intended to be manually quit by the user during a logon session (Alt-right-clicking the “clock box” icon does offer *Quit*, however)
 
